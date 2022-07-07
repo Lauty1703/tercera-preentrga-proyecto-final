@@ -1,0 +1,94 @@
+#acordion-inicio {
+	margin-top: 7rem;
+	padding: 10px 0px;
+	h2{
+		button{
+			font-size: 3rem;
+		}	
+	}
+	.bg-color-btn{
+		background-color:#E09797;
+		color: #F1EAEA;
+	}
+	.accordion-body{
+		font-size: 2rem;
+	}
+}
+.btn-ofertas{
+	background-color:#E85175;
+	color: #fff;
+}
+
+#contacto{
+	.title-contacto{
+		@include tamañoTitulo;
+	}
+	.subtitulo-contacto{
+		font-size: 2.8rem;
+	}
+	 .title-email{
+ 		font-size: 2rem;
+ 	}
+ 	.title-contraseña{
+ 		@extend .title-email;
+ 	}
+ 	.text-Mensaje{
+ 		font-size: 1.5rem;
+	}
+	.text-btn{
+ 		@extend .text-Mensaje;
+	}
+}
+
+#nosotros{
+	.title-nosotros{
+		@include tamañoTitulo;
+	}
+	.img-nosotros{
+		border-radius:10px;
+		box-shadow: $shadowCardNoso;
+	}
+	.subtitulo-nosotros{
+		font-size: 2.8rem;
+	}
+	.descripcion-text-nosotros{
+		font-size: 1.8rem;
+	}
+}
+#ubicacion {
+	.title-ubicaacion{
+		@include tamañoTitulo;
+	}
+	.iframe{
+		border-radius: 8px;
+		box-shadow: $shadowCardNoso;
+	}
+	.form-label{
+		font-size: 1.9rem;
+	}
+	.btn-ubicacion{
+		background-color:#E85175;
+		color: #fff;
+		font-size: 2rem;
+	}
+	.iconos{
+		font-size: 4rem;
+
+	}
+	.fas{
+	 color::#E85175;
+
+	}
+	.btn-color{
+		background: hsla(28, 100%, 50%, 1);
+
+		background: linear-gradient(90deg, hsla(28, 100%, 50%, 1) 0%, hsla(21, 83%, 32%, 1) 100%);
+
+		background: -moz-linear-gradient(90deg, hsla(28, 100%, 50%, 1) 0%, hsla(21, 83%, 32%, 1) 100%);
+
+		background: -webkit-linear-gradient(90deg, hsla(28, 100%, 50%, 1) 0%, hsla(21, 83%, 32%, 1) 100%);
+	}
+	.text-icono{
+		font-size: 1.4rem;
+	}
+}

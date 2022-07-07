@@ -1,0 +1,46 @@
+#box-cards{
+	.title-productos{
+		@include tamañoTitulo;
+ 		font-family: 'Roboto', sans-serif;
+	}
+	img{
+		height: 200px;
+	}
+	#productos{
+		margin-top: 5rem;
+		.card{
+			border-top-right-radius: 20px;
+			border-top-left-radius: 20px;
+			box-shadow:$shadowCard;
+			.img-carousel{
+				border-top-right-radius: 20px;
+				border-top-left-radius: 20px;
+			}
+ 		
+		}
+		.card:hover{
+			cursor: pointer;
+ 			transform: translateY(-10px);
+ 			transition: 1s;
+		}
+		.card-title{
+			font-size: 2rem;
+ 			font-weight: 700;
+		}
+		.card-text{
+		 	font-size: 2rem;
+		}
+		.text-btn-a{
+			font-size: 1.8rem;
+		}
+		.bg-color-btn-inicio {
+			background-color: #FA7171;
+			color: #F1EAEA;
+		}
+
+	}
+	.text-descripcion-ofertas{
+		font-size: 2rem;
+		font-weight: 600;
+	}
+}
